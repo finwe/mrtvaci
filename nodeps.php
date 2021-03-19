@@ -1,7 +1,5 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
-
 $image = imagecreatefromjpeg(__DIR__ . '/andrej.jpg');
 
 $today = new DateTimeImmutable();
